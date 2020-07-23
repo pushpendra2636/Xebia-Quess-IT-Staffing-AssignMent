@@ -1,0 +1,199 @@
+.bg-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("./images/background.png")no-repeat;
+  background-size: 100% 100%;
+  max-width: 100%;
+}
+
+.bg-img:before {
+  opacity: 1;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: #357dc4;
+  background: -moz-linear-gradient(left, #357dc4 1%, #32cabb 100%);
+  background: -webkit-linear-gradient(left, #357dc4 1%, #32cabb 100%);
+  background: linear-gradient(to right, #357dc4 1%, #32cabb 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#357dc4', endColorstr='#32cabb', GradientType=1);
+}
+
+.loginCard {
+  background-color: rgb(235, 246, 248);
+  border: 1px;
+  border-radius: 8px;
+  bottom: 0;
+  align-items: center;
+  display: inline-block;
+  justify-content: center;
+  position: relative;
+  top: 35%;
+  left: 35%;
+  width: calc(100% - 70%);
+}
+
+.loginForm {
+  padding: 0 5% 5% 5%;
+}
+
+.form-Control {
+  width: 100%;
+  margin: 1%;
+  border-radius: 5px;
+  border: 1px solid #00ffc4;
+}
+
+.loginBtn {
+  border: 1px solid #4eb5f1;
+  display: inline-block;
+  padding: 0.5em 1.2em;
+  margin: 1.5em 0.3em 0.3em 0;
+  border-radius: 2em;
+  color: #FFFFFF;
+  background-color: #4eb5f1;
+  text-align: center;
+  transition: all 0.2s;
+  position: relative;
+  left: 20%;
+  width: calc(100% - 40%);
+}
+
+.sCard {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 0px 1px #080808;
+}
+
+/*footer css*/
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #45a1ff;
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  padding: 1%;
+  background-color: #45a1ff;
+}
+
+.logo {
+  width: 20%;
+  text-align: center;
+}
+
+.logo>img {
+  width: 32%;
+  border-radius: 50%;
+}
+
+.fllter {
+  width: 78%;
+}
+
+.searchInput {
+  width: 100%;
+  margin-top: 2.5%;
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 6px;
+}
+
+.admin {
+  width: 20%;
+  text-align: center;
+  margin-top: 1%;
+}
+
+.admin>img {
+  max-width: 30%;
+  border-radius: 49%;
+}
+
+.p-container {
+  display: inline-flex;
+  width: 100%;
+}
+
+.filterCard {
+  width: 30%;
+}
+
+.products {
+  width: 70%;
+}
+
+.products>.card {
+  margin: 4%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 14px;
+}
+
+.products>.card div {
+  border-radius: 3px;
+  font-size: 14px;
+  border: 1px solid #d3cdcd;
+}
+
+.products>.card>div img {
+  max-width: 80%;
+}
+
+.discount {
+  color: yellow;
+  font-size: 1.1rem;
+  border-radius: 50%;
+  position: absolute;
+  clear: both;
+  margin: 2% auto auto auto;
+  text-shadow: 1px 0px 1px #dfd918;
+}
+
+.brand {
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 600;
+  color: blue;
+  margin: 0 0 0 4%;
+  display: block;
+}
+
+.addBtnImg {
+  width: 5%;
+  margin: 0px 5px -3px 0;
+}
+
+.addCard {
+  text-align: end;
+  border: none !important;
+  margin-right: 4%;
+}
+
+.addBtn {
+  color: white;
+  background: blue;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.f-color, .f-brand, .f-price, .f-discount {
+  border: 1px solid #bcb6b6;
+  margin: 9% 0 auto 3%;
+  padding: 3%;
+}
+.pageNotFound{
+  text-align: center;
+}
